@@ -1,0 +1,11 @@
+/****************************************
+  NAVIGATION
+****************************************/
+
+.uk-navbar {
+  background-color: transparent;
+}
+
+nav li {
+  text-transform: uppercase;
+}
