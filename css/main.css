@@ -6,6 +6,6 @@
   background-color: transparent;
 }
 
-nav li {
+nav li, .uk-nav-offcanvas li {
   text-transform: uppercase;
 }
