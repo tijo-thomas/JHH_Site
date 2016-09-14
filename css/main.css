@@ -9,3 +9,15 @@
 nav li, .uk-nav-offcanvas li {
   text-transform: uppercase;
 }
+
+
+
+/****************************************
+  ABOUT SECTION
+****************************************/
+
+/* Overrides thumbnail styling. */
+.uk-thumbnail {
+  border-style: none;
+  padding: 0
+}
