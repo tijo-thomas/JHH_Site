@@ -21,3 +21,23 @@ nav li, .uk-nav-offcanvas li {
   border-style: none;
   padding: 0;
 }
+
+
+
+/****************************************
+  CALL TO ACTION SECTION
+****************************************/
+
+
+
+
+
+/****************************************
+  MEDIA QUERIES
+****************************************/
+
+@media (min-width: 768px) {
+  .view-height {
+    height: 100vh;
+  }
+}
