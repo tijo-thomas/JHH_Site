@@ -1,4 +1,14 @@
 /****************************************
+  GENERAL
+****************************************/
+
+html, body {
+  height: 100%;
+}
+
+
+
+/****************************************
   NAVIGATION
 ****************************************/
 
@@ -28,7 +38,16 @@ nav li, .uk-nav-offcanvas li {
   CALL TO ACTION SECTION
 ****************************************/
 
-
+.cta {
+  height: 60vh;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-image: url(../images/cta.jpg);
+  background-position: center center;
+}
 
 
 
