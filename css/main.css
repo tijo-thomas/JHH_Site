@@ -52,6 +52,23 @@ nav li, .uk-nav-offcanvas li {
 
 
 /****************************************
+  REVIEWS SECTION
+****************************************/
+
+.reviews-bg-img {
+  height: 75vh;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-image: url(../images/review.jpg);
+  background-position: center center;
+}
+
+
+
+/****************************************
   MEDIA QUERIES
 ****************************************/
 
