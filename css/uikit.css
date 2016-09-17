@@ -3471,7 +3471,7 @@ select.uk-form-width-mini {
   font: inherit;
   color: #444;
   /* 6 */
-  text-transform: none;
+  text-transform: uppercase;
   /* 7 */
   display: inline-block;
   box-sizing: border-box;
