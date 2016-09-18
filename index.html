@@ -4,6 +4,9 @@
 <head>
   <title>Judi's Hands for Hire</title>
   <link rel="stylesheet" type="text/css" href="css/uikit.min.css">
+  <link rel="stylesheet" type="text/css" href="css/components/dotnav.min.css">
+  <link rel="stylesheet" type="text/css" href="css/components/slidenav.min.css">
+  <link rel="stylesheet" type="text/css" href="css/components/slideshow.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
@@ -155,18 +158,22 @@
 
     <div class="reviews-bg-img uk-margin-large uk-vertical-align uk-text-center">
       <!-- REVIEWS MUST GO IN THIS DIV -->
-      <div class="uk-text-center uk-vertical-align-middle uk-container-center">
+      <div class="reviews-width uk-text-center uk-vertical-align-middle uk-container-center">
         <h1 class="uk-text-center">See what our customers have to say.</h1>
-
-        <div class="uk-slidenav-position" data-uk-slideshow>
-          <ul class="uk-slideshow">
+        <div class="reviews-width uk-text-center uk-container-center uk-slidenav-position" data-uk-slideshow="{autoplay:true, animation:fade, duration:500}">
+          <ul class="reviews-width uk-container-center uk-slideshow uk-margin-large-bottom">
             <li>
               <div class="uk-grid uk-grid-width-1-1">
-                <blockquote>We appreciated all you did to help make our mom’s 75th birthday a memorable one. For once I got to enjoy the party.</blockquote>
-                <small>-Gina C.</small>
+                <h2>We appreciated all you did to help make our mom’s 75th birthday a memorable one. For once I got to enjoy the party.</h2>
+                <p>-Gina C.</p>
               </div>
             </li>
-            <li></li>
+            <li>
+              <div class="uk-grid uk-grid-width-1-1">
+                <h2>Wow this is awesome</h2>
+                <p>-Bob B.</p>
+              </div>
+            </li>
             <li></li>
           </ul>
           <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
@@ -199,6 +206,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="js/uikit.min.js"></script>
+  <script src="js/components/slideshow.min.js"></script>
 </body>
 
 </html>
