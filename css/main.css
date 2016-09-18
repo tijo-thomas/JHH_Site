@@ -26,12 +26,6 @@ nav li, .uk-nav-offcanvas li {
   ABOUT SECTION
 ****************************************/
 
-/* Overrides thumbnail styling. */
-.uk-thumbnail {
-  border-style: none;
-  padding: 0;
-}
-
 
 
 /****************************************
