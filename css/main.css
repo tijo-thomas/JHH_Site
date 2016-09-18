@@ -74,6 +74,20 @@ nav li, .uk-nav-offcanvas li {
 
 
 /****************************************
+  SLIDENAV OVERRIDES
+****************************************/
+
+.uk-slidenav-position .uk-slidenav-previous {
+  left: -1em;
+}
+
+.uk-slidenav-position .uk-slidenav-next {
+  right: -1em;
+}
+
+
+
+/****************************************
   MEDIA QUERIES
 ****************************************/
 
