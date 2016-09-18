@@ -28,6 +28,19 @@ nav li, .uk-nav-offcanvas li {
 
 
 
+
+/****************************************
+  TEAM SECTION
+****************************************/
+
+/* Overrides thumbnail styling. */
+.uk-thumbnail {
+  border-style: none;
+  padding: 0;
+}
+
+
+
 /****************************************
   CALL TO ACTION SECTION
 ****************************************/
