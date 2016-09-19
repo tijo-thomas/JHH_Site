@@ -14,10 +14,27 @@ html, body {
 
 .uk-navbar {
   background-color: transparent;
+  z-index: 100;
 }
 
 nav li, .uk-nav-offcanvas li {
   text-transform: uppercase;
+}
+
+.uk-navbar-attached {
+  background-color: #000;
+}
+
+
+
+/****************************************
+  LANDING SECTION
+****************************************/
+
+#landing {
+  position: relative;
+  bottom: 40px;
+  z-index: -1;
 }
 
 
