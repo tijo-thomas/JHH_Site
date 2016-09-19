@@ -15,9 +15,9 @@
   <div class="uk-container-center">
 
     <!-- Navigation -->
-    <nav class="uk-navbar">
+    <nav class="uk-navbar" data-uk-sticky="{clsactive: 'uk-navbar-attached', top: -100, animation: 'uk-animation-slide-top'}">
       <a href="#" class="uk-navbar-brand">Some Logo</a>
-      <ul class="uk-navbar-nav uk-navbar-flip uk-hidden-small">
+      <ul class="uk-navbar-nav uk-navbar-flip uk-hidden-small" data-uk-scrollspy-nav="{closest: 'li', smoothscroll: {offset: 40}}">
         <li><a href="#about">about</a></li>
         <li><a href="#services">services</a></li>
         <li><a href="#team">team</a></li>
@@ -71,7 +71,7 @@
     <!-- /Landing Section -->
 
     <!-- About Section -->
-    <h1 class="uk-text-center">About us</h1>
+    <h1 class="uk-text-center" id="about">About us</h1>
     <div class="my-test uk-grid uk-grid-width-medium-1-2 uk-container" data-uk-grid-margin>
       <p class="uk-container-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde deserunt corporis officia reiciendis et molestiae laboriosam fuga excepturi tenetur ipsa quos, quo ullam qui, magnam doloribus ratione error similique. Sit!</p>
       <p class="uk-container-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia blanditiis nulla ipsam, quasi quis minus labore hic recusandae est eum quia omnis qui, exercitationem. Fugiat iusto accusamus vitae minima asperiores.</p>
@@ -180,7 +180,7 @@
     <div class="reviews-bg-img uk-margin-large uk-vertical-align uk-text-center">
       <!-- REVIEWS MUST GO IN THIS DIV -->
       <div class="reviews-width uk-text-center uk-vertical-align-middle uk-container-center">
-        <h1 class="uk-text-center">See what our customers have to say.</h1>
+        <h1 class="uk-text-center" id="reviews">See what our customers have to say.</h1>
         <div class="reviews-width uk-text-center uk-container-center uk-slidenav-position" data-uk-slideshow="{autoplay:true,animation:'scroll'}">
           <ul class="reviews-width uk-container-center uk-slideshow uk-margin-large-bottom">
             <li>
