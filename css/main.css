@@ -6,6 +6,12 @@ html, body {
   height: 100%;
 }
 
+/* Section padding */
+.section-pad {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 
 
 /****************************************
@@ -51,10 +57,7 @@ section ul.uk-dotnav {
   ABOUT SECTION
 ****************************************/
 
-.about-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+
 
 
 
@@ -64,8 +67,6 @@ section ul.uk-dotnav {
 
 .services-section {
   background-color: #ebebff;
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 
