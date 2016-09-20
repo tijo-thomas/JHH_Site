@@ -25,6 +25,10 @@ nav li, .uk-nav-offcanvas li {
   background-color: #000;
 }
 
+section ul.uk-dotnav {
+  z-index: 60;
+}
+
 
 
 /****************************************
@@ -34,7 +38,11 @@ nav li, .uk-nav-offcanvas li {
 #landing {
   position: relative;
   bottom: 40px;
-  z-index: -1;
+  z-index: 1;
+}
+
+#landing-headline {
+
 }
 
 
@@ -47,7 +55,7 @@ nav li, .uk-nav-offcanvas li {
 
 
 /****************************************
-  TEAM SECTION
+  EVENT SECTION
 ****************************************/
 
 /* Overrides thumbnail styling. */
@@ -122,5 +130,13 @@ div.reviews-bg-img div.reviews-width div.reviews-width {
 @media (min-width: 768px) {
   .view-height {
     height: 100vh;
+  }
+}
+
+/* Resizes divs of Event section at small resolution */
+@media (max-width: 479px) {
+  #event .uk-grid div {
+    width: 95%;
+    margin: 10px auto;
   }
 }
