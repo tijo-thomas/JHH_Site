@@ -41,10 +41,15 @@ section ul.uk-dotnav {
   LANDING SECTION
 ****************************************/
 
-#landing {
+#landing div {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  background-image: url(../images/fall-landing-min.jpeg);
   position: relative;
   bottom: 40px;
-  z-index: 1;
+  z-index: -1;
 }
 
 #landing-headline {
