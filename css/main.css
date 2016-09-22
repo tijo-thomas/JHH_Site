@@ -42,14 +42,27 @@ section ul.uk-dotnav {
 ****************************************/
 
 #landing div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/fall-landing-min.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-position: center center;
-  background-image: url(../images/fall-landing-min.jpeg);
+  height: 100vh;
   position: relative;
   bottom: 40px;
   z-index: -1;
+}
+
+#landing div h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
 }
 
 #landing-headline {
