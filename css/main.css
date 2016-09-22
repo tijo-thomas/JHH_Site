@@ -41,7 +41,7 @@ section ul.uk-dotnav {
   LANDING SECTION
 ****************************************/
 
-#landing div {
+#landing-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/fall-landing-min.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -55,7 +55,7 @@ section ul.uk-dotnav {
   z-index: -1;
 }
 
-#landing div h2 {
+.landing-text {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -63,10 +63,6 @@ section ul.uk-dotnav {
   text-transform: uppercase;
   text-align: center;
   color: white;
-}
-
-#landing-headline {
-
 }
 
 
