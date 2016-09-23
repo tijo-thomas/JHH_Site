@@ -39,9 +39,23 @@ section ul.uk-dotnav {
   color: rgba(255, 255, 255, 0.7);
 }
 
+/* Navbar hover, active, and focus color. */
 .uk-navbar-brand:hover,
-.uk-navbar-brand:active {
+.uk-navbar-brand:active,
+.uk-navbar-nav>li>a:active,
+.uk-navbar-nav>li.uk-active>a,
+.uk-navbar-nav>li.uk-open>a,
+.uk-navbar-nav>li:hover>a,
+.uk-navbar-nav>li>a:focus {
   color: rgb(255, 255, 255);
+}
+
+/* Navbar active, hover, & focus background color. */
+.uk-navbar-nav>li.uk-active>a,
+.uk-navbar-nav>li.uk-open>a,
+.uk-navbar-nav>li:hover>a,
+.uk-navbar-nav>li>a:focus {
+  background-color: transparent;
 }
 
 
