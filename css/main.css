@@ -71,7 +71,7 @@ section ul.uk-dotnav {
 .uk-nav-offcanvas>.uk-open>a,
 html:not(.uk-touch) .uk-nav-offcanvas>li>a:focus,
 html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
-  background-color: #9d9dff;
+  background-color: #c4c4ff;
 }
 
 
@@ -104,7 +104,7 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
 }
 
 .landing-text h1 {
-  color: #9d9dff;
+  color: #c4c4ff;
 }
 
 
@@ -123,6 +123,24 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
 
 .services-section {
   background-color: #ebebff;
+}
+
+/* Sets panel styling and transition. */
+.uk-panel-hover {
+  border: 1px solid #c4c4ff;
+  border-radius: 10px;
+  background-color: transparent;
+  transition: background-color .3s;
+}
+
+/* Sets end of transition. */
+.uk-panel-hover:hover {
+  background-color: #c4c4ff;
+  color: #fff;
+}
+
+.uk-panel-hover:hover .uk-panel-title {
+  color: #fff;
 }
 
 
