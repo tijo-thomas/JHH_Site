@@ -202,6 +202,17 @@ div.reviews-bg-img div.reviews-width div.reviews-width {
   }
 }
 
+/********* LANDING SECTION **********/
+
+/* Changes position and alignment of landing text. */
+@media (max-width: 767px) {
+  .landing-text {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
 /* Resizes divs of Event section at small resolution */
 @media (max-width: 479px) {
   #event .uk-grid div {
