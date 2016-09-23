@@ -217,7 +217,7 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-attachment: fixed;
-  background-image: url(../images/review.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/review.min.jpg);
   background-position: center center;
 }
 
