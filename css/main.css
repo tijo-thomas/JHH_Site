@@ -37,7 +37,8 @@ section ul.uk-dotnav {
 
 .uk-navbar-brand,
 .uk-navbar-nav>li>a,
-.uk-navbar-brand:focus{
+.uk-navbar-brand:focus,
+.uk-navbar-toggle {
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -48,7 +49,9 @@ section ul.uk-dotnav {
 .uk-navbar-nav>li.uk-active>a,
 .uk-navbar-nav>li.uk-open>a,
 .uk-navbar-nav>li:hover>a,
-.uk-navbar-nav>li>a:focus {
+.uk-navbar-nav>li>a:focus,
+.uk-navbar-toggle:focus,
+.uk-navbar-toggle:hover {
   color: rgb(255, 255, 255);
 }
 
