@@ -35,6 +35,15 @@ section ul.uk-dotnav {
   z-index: 60;
 }
 
+.uk-navbar-brand, .uk-navbar-nav>li>a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.uk-navbar-brand:hover,
+.uk-navbar-brand:active {
+  color: rgb(255, 255, 255);
+}
+
 
 
 /****************************************
