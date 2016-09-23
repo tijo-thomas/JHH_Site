@@ -35,7 +35,9 @@ section ul.uk-dotnav {
   z-index: 60;
 }
 
-.uk-navbar-brand, .uk-navbar-nav>li>a {
+.uk-navbar-brand,
+.uk-navbar-nav>li>a,
+.uk-navbar-brand:focus{
   color: rgba(255, 255, 255, 0.7);
 }
 
