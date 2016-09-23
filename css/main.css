@@ -146,18 +146,6 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
 
 
 /****************************************
-  EVENT SECTION
-****************************************/
-
-/* Overrides thumbnail styling. */
-.uk-thumbnail {
-  border-style: none;
-  padding: 0;
-}
-
-
-
-/****************************************
   CALL TO ACTION SECTION
 ****************************************/
 
@@ -170,6 +158,18 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
   background-attachment: fixed;
   background-image: url(../images/cta.jpg);
   background-position: center center;
+}
+
+
+
+/****************************************
+  EVENT SECTION
+****************************************/
+
+/* Overrides thumbnail styling. */
+.uk-thumbnail {
+  border-style: none;
+  padding: 0;
 }
 
 
