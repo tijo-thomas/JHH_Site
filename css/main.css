@@ -120,6 +120,25 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
   color: #c4c4ff;
 }
 
+.landing-text span {
+  display: block;
+}
+
+#landing-main-text {
+  font-family: "Dosis", arial, sans-serif;
+  color: #c4c4ff;
+  font-size: 70px;
+  margin-bottom: 10%;
+  line-height: 100%;
+  text-decoration: underline;
+}
+
+#landing-sub-text {
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 35px;
+  line-height: 100%
+}
+
 
 
 /****************************************
