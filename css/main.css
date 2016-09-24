@@ -22,6 +22,11 @@ h3 {
   font-size: 24px;
 }
 
+span {
+  letter-spacing: 0.2em;
+  line-height: 1.7;
+}
+
 p {
   line-height: 1.7;
   font-size: 15px;
@@ -138,6 +143,7 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
 
 .landing-text span {
   display: block;
+  letter-spacing: normal;
 }
 
 #landing-main-text {
