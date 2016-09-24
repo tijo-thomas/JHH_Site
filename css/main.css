@@ -151,7 +151,7 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
   color: #c4c4ff;
   font-size: 70px;
   margin-bottom: 5%;
-  line-height: 100%;
+  line-height: 1.1;
   text-decoration: underline;
 }
 
@@ -159,7 +159,7 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
   font-family: "Open Sans", arial, sans-serif;
   font-size: 35px;
   font-weight: 300;
-  line-height: 100%
+  line-height: 1.1;
 }
 
 
@@ -338,7 +338,6 @@ div.reviews-bg-img div.reviews-width div.reviews-width {
 
   #landing-sub-text {
     font-size: 28px; /* 80% of original size. */
-    line-height: 115%;
   }
 }
 
