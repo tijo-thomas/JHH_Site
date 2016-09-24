@@ -136,6 +136,7 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
 #landing-sub-text {
   font-family: "Open Sans", arial, sans-serif;
   font-size: 35px;
+  font-weight: 300;
   line-height: 100%
 }
 
