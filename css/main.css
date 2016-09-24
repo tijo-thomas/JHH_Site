@@ -94,7 +94,7 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
 ****************************************/
 
 #landing-bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/fall-landing-min.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/fall-landing-min.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-background-size: cover;
