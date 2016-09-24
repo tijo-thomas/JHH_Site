@@ -307,6 +307,14 @@ div.reviews-bg-img div.reviews-width div.reviews-width {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  #landing-main-text {
+    font-size: 56px; /* 80% of original size. */
+  }
+
+  #landing-sub-text {
+    font-size: 28px; /* 80% of original size. */
+  }
 }
 
 /* Resizes divs of Event section at small resolution */
