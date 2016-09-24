@@ -254,10 +254,10 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
   background-position: center center;
 }
 
-.reviews-bg-img h1,
 .reviews-bg-img h2,
+.reviews-bg-img span,
 .reviews-bg-img p {
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
 }
 
 .reviews-bg-img p {
