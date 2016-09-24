@@ -128,7 +128,7 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
   font-family: "Dosis", arial, sans-serif;
   color: #c4c4ff;
   font-size: 70px;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   line-height: 100%;
   text-decoration: underline;
 }
@@ -310,10 +310,12 @@ div.reviews-bg-img div.reviews-width div.reviews-width {
 
   #landing-main-text {
     font-size: 56px; /* 80% of original size. */
+    margin-bottom: 15%;
   }
 
   #landing-sub-text {
     font-size: 28px; /* 80% of original size. */
+    line-height: 115%;
   }
 }
 
