@@ -4,6 +4,11 @@
 
 html, body {
   height: 100%;
+  font-family: "Open Sans", arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Dosis, arial, sans-serif;
 }
 
 /* Section padding */
@@ -21,6 +26,14 @@ html, body {
 .uk-navbar {
   background-color: transparent;
   z-index: 100;
+}
+
+.uk-navbar-nav>li>a {
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
 nav li, .uk-nav-offcanvas li {
