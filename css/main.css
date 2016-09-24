@@ -221,6 +221,16 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
   background-position: center center;
 }
 
+.reviews-bg-img h1,
+.reviews-bg-img h2,
+.reviews-bg-img p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.reviews-bg-img p {
+  margin-top: 15px;
+}
+
 .reviews-width {
   width: 80%;
   margin: auto;
