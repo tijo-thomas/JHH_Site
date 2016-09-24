@@ -329,6 +329,7 @@ div.reviews-bg-img div.reviews-width div.reviews-width {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 90%;
   }
 
   #landing-main-text {
@@ -338,6 +339,10 @@ div.reviews-bg-img div.reviews-width div.reviews-width {
 
   #landing-sub-text {
     font-size: 28px; /* 80% of original size. */
+  }
+
+  .cta div {
+    width: 90%;
   }
 }
 
