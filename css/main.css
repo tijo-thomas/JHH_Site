@@ -259,6 +259,10 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
   padding: 0;
 }
 
+#events span {
+  font-size: 20px;
+}
+
 
 
 /****************************************
@@ -287,7 +291,7 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
 }
 
 .reviews-width {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
