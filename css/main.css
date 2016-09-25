@@ -340,6 +340,7 @@ div.reviews-bg-img div.reviews-width div.reviews-width {
 @media (min-width: 960px) {
   #reviews-container {
     width: 60%;
+    max-width: 800px;
   }
 }
 
