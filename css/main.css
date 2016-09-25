@@ -346,7 +346,12 @@ div.reviews-bg-img div.reviews-width div.reviews-width {
 
 /********* LANDING SECTION **********/
 
-/* Changes position and alignment of landing text. */
+@media (max-width: 959px) {
+  .cta {
+    background-attachment: scroll;
+  }
+}
+
 @media (max-width: 767px) {
   .landing-text {
     left: 50%;
