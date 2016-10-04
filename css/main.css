@@ -355,13 +355,15 @@ div.reviews-bg-img div.reviews-width div.reviews-width {
   }
 }
 
-/********* LANDING SECTION **********/
+/********* MAX WIDTH 959 *********/
 
 @media (max-width: 959px) {
   .cta, .reviews-bg-img, #landing-bg {
     background-attachment: scroll;
   }
 }
+
+/********* MAX WIDTH 767 *********/
 
 @media (max-width: 767px) {
   .landing-text {
