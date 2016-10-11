@@ -272,6 +272,7 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover {
 
 .reviews-bg-img {
   height: 75vh;
+  min-height: 325px; /* Fixes section overlap in landscape view on mobile. */
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
