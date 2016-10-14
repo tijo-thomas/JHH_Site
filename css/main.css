@@ -92,7 +92,7 @@ section ul.uk-dotnav {
   color: rgb(255, 255, 255);
 }
 
-/* Navbar active, hover, & focus background color. */
+/* Navbar active, hover, & focus background colors. */
 .uk-navbar-nav>li.uk-active>a,
 .uk-navbar-nav>li.uk-open>a,
 .uk-navbar-nav>li:hover>a,
